@@ -34,23 +34,12 @@ export default  class CustomBar extends Component {
    
   }
 
-  async componentWillMount() {
-    
-    }
-
-  
-
   render(){
    return (
-    
-     
-
-<View style={{alignItems: 'center', justifyContent: 'center' ,margin:50}}>
-
-<Text style={{ alignItems: 'flex-start', justifyContent: 'center' }}>
-                                   Booked
-                                </Text>
-</View>
+ 
+		<View style={{alignItems: 'center', justifyContent: 'center' ,margin:50}}>
+		<Text style={{ alignItems: 'flex-start', justifyContent: 'center' }}>Booked</Text>
+		</View>
      
    );
   }

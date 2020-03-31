@@ -31,38 +31,17 @@ class SideBar extends Component {
       connection_Status: null
     }
   }
-  async componentWillMount() {
-
-  }
-
-  componentDidMount() {
-  }
-
-  componentWillUnmount() {
-  }
-
-
-
-
-
-
+  
   addInfo() {
-
     this.props.closeDrawer();
-
-
   }
   getProfile1() {
-
     this.props.closeDrawer();
     this.props.navigate('ProfileFirst');
-
   }
   getProfile2() {
-
     this.props.closeDrawer();
     // this.props.navigate('FirstPage');
-
   }
 
 
@@ -81,9 +60,6 @@ class SideBar extends Component {
               </View>
             }
           </View>
-
-
-
         </View>
         <View style={{ flex: 8 }}>
           <Content>

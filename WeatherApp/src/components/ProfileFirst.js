@@ -27,20 +27,7 @@ export default class ProfileFirst extends Component {
         this.setState({
             attachmentModalVisible: true
         });
-        // ImagePicker.openCamera({
-        //     width: window.width,
-        //     height: parseInt(window.width*(1.36), 10),
-        //     cropping: false
-        //   }).then(image => {
-        //     //copy image to ASAP folder of local storage
-        //    // this.copyFileToLocalStorage(image.path);
-        //    this.setState({filepath:image.path});
-        //   }).catch(
-        //     //e => alert(e)
-        //   );
-
-
-    }
+          }
     //capture image from camera
     pickWithCamera(cropping) {
         ImagePicker.openCamera({
